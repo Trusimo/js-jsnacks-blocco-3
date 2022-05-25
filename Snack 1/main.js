@@ -3,18 +3,21 @@
 // fino a quando la somma degli elementi è minore di 50.
 
 
-
 // creo array vuoto dove sommare
-var somma; 
+var somma = []; 
 
 // ciclo do-while che si ferma fino a prima di 50
 do {
     numero = prompt("Inserisci il numero");
+    somma.push(parseInt(numero));
 
     sum = 0;
-    for (let i=0; i < somma.length; i++) {
-        sum = sum + somma(i);
+
+    for(let i = 0; i < somma.length; i++) {
+        sum = sum + somma(i)
     }
+
+
 
 } while (sum < 50);
 
