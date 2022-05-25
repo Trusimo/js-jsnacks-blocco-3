@@ -21,4 +21,4 @@ do {
 
 } while (sum < 50);
 
-console.log(sum);
+console.log(somma);
