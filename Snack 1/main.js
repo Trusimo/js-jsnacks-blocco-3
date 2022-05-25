@@ -13,11 +13,12 @@ do {
 
     sum = 0;
 
-    
-    sum = sum + somma[i]
+    for(let i = 0; i < somma.length; i++) {
+        sum = sum + somma[i]
+    }
 
 
 
 } while (sum < 50);
 
-console.log(somma);
+console.log(sum);
