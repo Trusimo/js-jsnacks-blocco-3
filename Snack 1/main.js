@@ -5,12 +5,16 @@
 
 
 // creo array vuoto dove sommare
-var sum = []; 
+var somma; 
 
 // ciclo do-while che si ferma fino a prima di 50
 do {
     numero = prompt("Inserisci il numero");
-    sum.push(parseInt(numero));
+
+    sum = 0;
+    for (let i=0; i < somma.length; i++) {
+        sum = sum + somma(i);
+    }
 
 } while (sum < 50);
 
