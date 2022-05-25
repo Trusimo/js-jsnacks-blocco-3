@@ -14,7 +14,7 @@ do {
     sum = 0;
 
     for(let i = 0; i < somma.length; i++) {
-        sum = sum + somma(i)
+        sum = sum + somma[i]
     }
 
 
